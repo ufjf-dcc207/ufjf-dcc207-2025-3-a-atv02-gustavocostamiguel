@@ -1,13 +1,14 @@
-import './App.css'
-import Disciplina from './disciplina';
+import "./App.css";
+import Disciplina from "./Disciplina";
+function App(){
+return (
+<>
+<h1>hello world</h1>
+<Disciplina codigo ="DCC202" nome ="Desenvolvimento Web I"/>
+<Disciplina codigo ="DCC206" nome ="Desenvolvimento Web II"/>
+<Disciplina codigo ="DCC207" nome ="Desenvolvimento Web Front-End"/>
+</>
 
-function App() {
-  return (<>
-  <h1>Ola mundo</h1>
-  <h2>Ola react</h2>
-  <Disciplina></Disciplina>
-</>);
-    
-}
+)}
 
-export default App
+export default App;
