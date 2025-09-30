@@ -1,5 +1,5 @@
 import "./App.css";
-import Disciplina from "./Disciplina";
+import Disciplina from "./disciplina.tsxnpm";
 function App(){
 return (
 <>
